@@ -8,10 +8,7 @@ case $- in
       *) return;;
 esac
 
-alias owo='ls -a'
-alias h='history'
-alias c='clear'
-alias greeting='echo Hi there, this is Lukes computer!'
+
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
 HISTCONTROL=ignoreboth
@@ -120,4 +117,16 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# custom layout
 export PS1="\[\e[0;31m\]\u \[\e[0;32m\]\d \[\e[0;36m\]\w\[\e[0;37m\]$ \[\e[0m\]"
+
+# my alias
+alias owo='ls -a'
+alias h='history'
+alias c='clear'
+alias greeting='echo Hi there, this is Lukes computer!'
+alias ga='git add .'
+alias gc='git commit -m'
+alias gcl='git clone'
+alias gp='git push'
+alias gpl='git pull'
