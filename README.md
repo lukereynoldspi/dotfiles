@@ -1,7 +1,7 @@
 # Dotfiles
 Repo for my dotfiles! 
 
-<h3>Alias Cheatsheet</h3>
+<h2>Alias Cheatsheet</h2>
 These are some custom alias I made for my .bashrc file:
 
 <h4>Git Commands</h4>
