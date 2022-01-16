@@ -117,10 +117,11 @@ if ! shopt -oq posix; then
 fi
 
 # custom layout
-export PS1="🅱️\[\e[1;31m\]\u \[\e[1;31m\]\@ \[\e[0m\]\[\e[0;37m\]\w\[\e[0;37m\]$ \[\e[0m\]"
+export PS1='\[\e[0m\]🅱️\[\e[0;1;31m\]\u \[\e[0;1;31m\]\@ \[\e[0m\]\W\[\e[0;37m\]$ \[\e[0m\]'
 
 # my alias
 alias owo='ls -a'
+alias d='pwd'
 alias h='history'
 alias c='clear'
 alias greeting='echo Hi there, this is Lukes computer!'

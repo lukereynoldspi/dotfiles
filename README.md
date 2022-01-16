@@ -20,6 +20,8 @@ gpl='git pull'
 <h4>Micellaneous</h4>
 
 owo='ls -a'
+
+d='pwd'
   
 h='history'
   
